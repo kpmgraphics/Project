@@ -1,0 +1,18 @@
+#text {
+  font-family: sans-serif; font-size: 1em;
+}
+#button {
+  background-color: gray; color: white; width: 80px; border-style: none;
+}
+
+label {
+  width: 100px; display: inline-block;
+}
+
+#email {
+  cursor: auto;
+}
+
+#first-name {
+  style='text-transform:uppercase'
+}
