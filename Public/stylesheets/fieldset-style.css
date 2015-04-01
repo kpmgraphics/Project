@@ -1,0 +1,18 @@
+#text {
+  font-family: sans-serif; font-size: 1em;
+}
+#button {
+  background-color: gray; color: white; width: 150px; border-style: none;
+}
+
+label {
+  width: 150px; display: inline-block;
+}
+
+#email {
+  cursor: auto;
+}
+
+fieldset {
+  width: 300px
+}

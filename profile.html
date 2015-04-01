@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Profile</title>
+    <link rel="stylesheet" href="public/stylesheets/fieldset-style.css">
+  </head>
+  <body>
+
+  <fieldset>
+    <legend>Profile</legend>
+    <form method="post" action="/signup">
+      <br>
+      <label for="Email">Email</label><input type="text" id="email" name="email" placeholder="you@domain.com" cursor="auto"/>
+      <br>
+      <label for="Confirm-Email">Confirm Email</label><input type="text" id="email" name="email" cursor="auto"/>
+      <br><br>
+      <label for="Password">Password</label><input type="password" id="password" name="password"/>
+      <br>
+      <label for="Confirm-Password">Confirm Password</label><input type="password" id="password" name="password"/>
+      <br><br>
+      <label for="Gender">Gender</label>
+        <input type="radio" id="Male" name="sex" value="male">Male
+        <input type="radio" id="Female" name="sex" value="female">Female
+      <br><br>
+      <label for="First-Name">First Name</label><input type="text" id="fname" name="fname" style="text-transform:uppercase"/> 
+      <br><br>
+      <label for="Last-Name">Last Name</label><input type="text" id="lname" name="lname" style="text-transform:uppercase"/> 
+      <br><br>
+      <label></label><button>Sign up</button>
+      </form>
+  </fieldset>
+
+  </body>
+</html>
